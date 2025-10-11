@@ -1,0 +1,4 @@
+# Ignorar variables de entorno
+.env
+src/project-ai-engineering-be7c61d2a574.json
+src/.env
