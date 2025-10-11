@@ -1,5 +1,5 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-f', 'Dockerfile.prod', '-t', 'us-central1-docker.pkg.dev/project-ai-engineering/repo-openai-assistant/image-v1-openai-assistant:latest', '.']
+    args: ['build', '-f', 'Dockerfile.prod', '-t', 'us-central1-docker.pkg.dev/project-ai-engineering/repo-openai-assistant/image-v4-openai-assistant:latest', '.']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'us-central1-docker.pkg.dev/project-ai-engineering/repo-openai-assistant/image-v1-openai-assistant:latest']
+    args: ['push', 'us-central1-docker.pkg.dev/project-ai-engineering/repo-openai-assistant/image-v4-openai-assistant:latest']

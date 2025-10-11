@@ -40,6 +40,4 @@ gcloud run services replace service.yaml --region us-central1 --project project-
 
 # 4. Dar acceso a el servicio a todos
 Se utiliza para esto el archivo gcr-service-policy.yaml
-´´´
 gcloud run services set-iam-policy servicio-openai-assistant gcr-service-policy.yaml --region us-central1 --project project-ai-engineering
-´´´

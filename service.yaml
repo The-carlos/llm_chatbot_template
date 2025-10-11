@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - image: us-central1-docker.pkg.dev/project-ai-engineering/repo-openai-assistant/image-v1-openai-assistant:latest
+        - image: us-central1-docker.pkg.dev/project-ai-engineering/repo-openai-assistant/image-v4-openai-assistant:latest
           env:
           ports:
             - containerPort: 4000
