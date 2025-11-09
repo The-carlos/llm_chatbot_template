@@ -93,7 +93,7 @@ if prompt := st.chat_input("Escribir mensaje..."):
 
         # 8.4) Mostrar spinner mientras se procesa (y ejecutar tools si el Assistant lo requiere)
         with st.spinner('El asistente de OpenAI está escribiendo ... ⏳'):
-            st.toast('Conexión con Google Cloud Platform y OpenAI API éxitosas ✅', icon='🎉')
+            st.toast('Conexión con Google Cloud Platform éxitosa ✅', icon='🎉')
 
             # Bloquea hasta que el run termine o hasta que se resuelvan tool-calls.
             run_excecuter(run)
