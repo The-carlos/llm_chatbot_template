@@ -43,7 +43,7 @@ def enviar_correo(nombre_lead,correo_lead,mensaje_para_lead):
     email = EmailMessage()
     email["From"] = remitente
     email["To"] = destinatario
-    email["Subject"] = "Mensaje Importante de Datapath para ti " + nombre_lead
+    email["Subject"] = "Un LMM tiene un correo para ti 🤖" + nombre_lead
     email.set_content(mensaje)
     smtp = smtplib.SMTP_SSL("smtp.gmail.com")
     print(APP_PASSWORD_GMAIL)
